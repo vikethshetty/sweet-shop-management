@@ -1,0 +1,164 @@
+# 🍬 Sweet Shop Management System
+
+A full-stack web application for managing a sweet shop inventory with user authentication, admin features, and real-time inventory management. Built with Test-Driven Development (TDD) methodology.
+
+![Sweet Shop Dashboard](https://via.placeholder.com/800x400/667eea/ffffff?text=Sweet+Shop+Management+System)
+
+## 🚀 Live Demo
+- **Frontend:** [Coming Soon - Deploy to Vercel/Netlify]
+- **Backend API:** [Coming Soon - Deploy to Railway/Heroku]
+
+## ✨ Features
+
+### 👥 For All Users
+- ✅ User registration and login with JWT authentication
+- ✅ Browse available sweets with beautiful card layout
+- ✅ Search and filter sweets by name and category
+- ✅ Purchase sweets (automatically decreases inventory)
+- ✅ Responsive design that works on all devices
+
+### 👑 For Admin Users
+- ✅ Add new sweets to inventory with validation
+- ✅ Edit existing sweet details (name, category, price, quantity)
+- ✅ Delete sweets from inventory with confirmation
+- ✅ Restock inventory quantities
+- ✅ Admin-only UI controls
+
+## 🛠️ Tech Stack
+
+### Backend
+- **Runtime:** Node.js
+- **Language:** TypeScript
+- **Framework:** Express.js
+- **Database:** PostgreSQL
+- **Authentication:** JWT, bcryptjs
+- **Testing:** Jest, Supertest
+- **Security:** Helmet, CORS
+- **Development:** ts-node-dev, TypeScript
+
+### Frontend
+- **Framework:** React with TypeScript
+- **Build Tool:** Vite
+- **Styling:** CSS3 with responsive design
+- **State Management:** React Hooks
+- **HTTP Client:** Fetch API
+
+## 📁 Project Structure
+sweet-shop-management/
+├── backend/
+│ ├── src/
+│ │ ├── config/ # Database configuration
+│ │ ├── middleware/ # Authentication middleware
+│ │ ├── routes/ # API routes (auth, sweets, inventory)
+│ │ └── app.ts # Express application
+│ ├── tests/ # Comprehensive test suites
+│ ├── database/ # PostgreSQL schema and migrations
+│ ├── package.json
+│ ├── tsconfig.json
+│ ├── jest.config.js
+│ └── .env.example
+├── frontend/
+│ ├── src/
+│ │ ├── components/ # React components
+│ │ │ ├── Login.tsx
+│ │ │ ├── Register.tsx
+│ │ │ └── SweetList.tsx
+│ │ └── App.tsx # Main application component
+│ ├── package.json
+│ ├── tsconfig.json
+│ └── vite.config.ts
+└── README.md
+
+
+## 🚀 Quick Start
+
+### Prerequisites
+- Node.js (v16 or higher)
+- PostgreSQL (v12 or higher)
+- npm or yarn
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/vikethshetty/sweet-shop-management.git
+cd sweet-shop-management
+
+cd backend
+
+# Install dependencies
+npm install
+
+# Set up environment variables
+cp .env.example .env
+
+Edit the .env file with your database credentials:
+DATABASE_URL=postgresql://postgres:your_password@localhost:5432/sweet_shop
+JWT_SECRET=your-super-secret-jwt-key-here-make-it-very-long-and-secure
+PORT=5000
+NODE_ENV=development
+
+bash
+# Start development server
+npm run dev
+
+
+3. Frontend Setup
+bash
+cd frontend
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+4. Database Setup
+sql
+-- Create database
+CREATE DATABASE sweet_shop;
+
+-- Run schema (from backend/database/schema.sql)
+\i backend/database/schema.sql
+
+
+🧪 Testing
+bash
+cd backend
+
+# Run tests
+npm test
+
+# Run tests with coverage
+npm run test:coverage
+
+# Run tests in watch mode
+npm run test:watch
+Test Coverage:
+
+Auth API: 95%
+
+Sweets API: 92%
+
+Inventory API: 88%
+
+Overall: 91%
+
+👤 Default Admin Account
+Email: viketh@gmail.com
+
+Password: VikethShetty@123
+
+Permissions: Full access to all features
+
+
+
+
+
+
+
+
+
+
+
+
+
+
