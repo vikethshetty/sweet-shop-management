@@ -78,7 +78,7 @@ sweet-shop-management/
 - npm or yarn
 
 ### 1. Clone the Repository
-```bash
+bash
 git clone https://github.com/vikethshetty/sweet-shop-management.git
 cd sweet-shop-management
 
@@ -210,15 +210,7 @@ DeepSeek significantly accelerated the development process by:
 - Proper attribution is given in commit messages as required by the assignment
 - The final codebase represents my understanding and implementation skills
 
-### Development Timeline with AI Assistance
 
-- **Project Setup:** 2 days (reduced from estimated 5 days without AI)
-- **Backend API:** 3 days (comprehensive implementation with testing)
-- **Frontend Development:** 2 days (responsive design with full functionality)
-- **Testing & Debugging:** 1 day (comprehensive test coverage)
-- **Documentation:** 1 day (detailed README and setup instructions)
-
-The AI tools, particularly DeepSeek, acted as a pair programming partner, allowing me to focus on understanding the concepts while efficiently implementing the required functionality. This collaborative approach resulted in a robust, well-architected application delivered within a compressed timeline.
 
 
 
