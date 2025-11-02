@@ -149,6 +149,77 @@ Password: VikethShetty@123
 
 Permissions: Full access to all features
 
+## 🤖 My AI Usage
+
+### AI Tools Used
+- **DeepSeek** for code generation, debugging, and architectural guidance
+- **GitHub Copilot** for code completion and boilerplate generation
+
+### How I Used AI
+
+#### DeepSeek Usage
+- **Full-Stack Architecture:** Guided the complete project structure for both backend and frontend
+- **Database Design:** Assisted in designing the PostgreSQL schema with proper relationships and indexes
+- **API Development:** Helped implement RESTful endpoints with proper HTTP status codes and error handling
+- **Authentication System:** Guided JWT implementation with secure password hashing using bcryptjs
+- **TypeScript Integration:** Provided TypeScript type definitions and interface designs
+- **Testing Strategy:** Helped structure comprehensive test suites using Jest and Supertest
+- **Error Handling:** Implemented robust error handling middleware and validation
+- **Code Reviews:** Analyzed code for potential bugs and suggested optimizations
+
+#### GitHub Copilot Usage
+- **Code Completion:** Generated repetitive code patterns in Express routes and React components
+- **Test Generation:** Created test cases based on function signatures and business logic
+- **TypeScript Types:** Assisted with interface definitions and type safety
+- **Database Queries:** Optimized PostgreSQL queries with proper parameterization
+
+### Specific DeepSeek Contributions
+
+**Backend Development:**
+- Designed the Express.js application structure with proper middleware setup
+- Implemented JWT authentication with role-based access control
+- Created comprehensive API endpoints for sweets management
+- Set up database connection pooling and query optimization
+
+**Frontend Development:**
+- Guided React component structure with proper state management
+- Implemented responsive CSS design with modern UI/UX principles
+- Set up API integration with proper error handling
+- Created user authentication flow with token management
+
+**Database Design:**
+- Designed normalized database schema for users and sweets
+- Implemented proper indexes for search functionality
+- Set up sample data insertion for testing
+
+### Impact on Workflow
+
+DeepSeek significantly accelerated the development process by:
+
+- **Rapid Prototyping:** Reduced initial setup time by ~60% through guided architecture
+- **Problem Solving:** Provided instant solutions for complex implementation challenges
+- **Best Practices:** Ensured adherence to industry standards and security measures
+- **Learning Enhancement:** Explained complex concepts in accessible ways
+- **Code Quality:** Suggested improvements for maintainability and scalability
+
+### Ethical AI Usage
+
+- All AI-generated code was thoroughly reviewed, tested, and understood
+- Critical business logic and security implementations were manually verified
+- DeepSeek was used as a collaborative tool rather than a code replacement
+- Proper attribution is given in commit messages as required by the assignment
+- The final codebase represents my understanding and implementation skills
+
+### Development Timeline with AI Assistance
+
+- **Project Setup:** 2 days (reduced from estimated 5 days without AI)
+- **Backend API:** 3 days (comprehensive implementation with testing)
+- **Frontend Development:** 2 days (responsive design with full functionality)
+- **Testing & Debugging:** 1 day (comprehensive test coverage)
+- **Documentation:** 1 day (detailed README and setup instructions)
+
+The AI tools, particularly DeepSeek, acted as a pair programming partner, allowing me to focus on understanding the concepts while efficiently implementing the required functionality. This collaborative approach resulted in a robust, well-architected application delivered within a compressed timeline.
+
 
 
 
