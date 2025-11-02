@@ -2,7 +2,7 @@
 
 A full-stack web application for managing a sweet shop inventory with user authentication, admin features, and real-time inventory management. Built with Test-Driven Development (TDD) methodology.
 
-![Sweet Shop Dashboard](https://via.placeholder.com/800x400/667eea/ffffff?text=Sweet+Shop+Management+System)
+
 
 ## 🚀 Live Demo
 - **Frontend:** [Coming Soon - Deploy to Vercel/Netlify]
@@ -88,7 +88,7 @@ cd backend
 npm install
 
 # Set up environment variables
-cp .env.example .env
+cp .env
 
 Edit the .env file with your database credentials:
 DATABASE_URL=postgresql://postgres:your_password@localhost:5432/sweet_shop
